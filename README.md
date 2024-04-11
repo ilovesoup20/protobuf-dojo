@@ -1,3 +1,3 @@
 # protobuf dojo
 
-playing aroundn with protobuf
+playing around with protobuf
