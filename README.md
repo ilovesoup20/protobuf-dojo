@@ -1,3 +1,3 @@
-# protobuf dojo
+# Protocol Buffers Dojo
 
 playing around with protobuf

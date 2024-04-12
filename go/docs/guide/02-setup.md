@@ -63,3 +63,9 @@ import tutorial "protobuf-dojo/pkg/pb"
 ```
 
 Note the import path specifies the directory where the compiled code lives. Then `tutorial` package is imported from that namesapce.
+
+### Compiling proto files
+
+```
+protoc --proto_path=api/proto/ --go_out=pkg/pb --go_opt=paths=source_relative api/proto/*.proto
+```
